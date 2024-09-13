@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    }
+    
+    
+    .box-1{
+        background-color: rgba(0, 0, 0, 0.626);
+         margin: 20px 0;
+         margin-top: 30px;
+         padding: 50px;
+         border-radius: 10px;
+         border: 3px solid gray;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         transition: box-shadow 0.5s ease;
+         align-items: center;
+         display: flex;
+         flex-direction: column;
+         height: 500px;
+         width: 1000;
+         gap: 5px;
+        
+    
+    
+         
+    }
+    
+    h1{
+        color: aqua;
+        text-align: center;
+        margin: 70px;/*margem entre login e o primeiro input*/
+    }
+    
+    
+    .campo{ 
+    
+        background-color: black;
+        border: 3px;
+        width: 250px;
+        height: 50px;
+        color: white;
+        
+    }
+    
+    
+    button{
+        background-color: aqua;
+        cursor: pointer;
+        border: 2px solid aqua;
+        width: 180px;
+        height: 30px;
+    
+        
+        
+    
+    }
+    
+    .box-1:hover{
+    
+        box-shadow: 0 0 10px 10px aqua; /*Efeito de "luz LED" */
+    
+    }
+    
+    p{
+        color: white; 
+    }
+    
+    .campo:hover{
+        
+        box-shadow: 0 0 10px 10px aqua; /*Efeito de "luz LED" */
+    
+    
+    }
+    
+    ul a{
+        text-decoration: none;
+        color: black;
+        
+    
+    }
+    
+    ul a:{
+        box-shadow: 0 0 10px 10px aqua; /*Efeito de "luz LED" */
+    
+    }
+    
+    p{
+        display: flex;
+        display: inline;
+    }
+    
+    .Esqueceu ul a{
+    
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition:  0.5s ease;  /* Transição suave para o efeito */
+    
+    }
+    
+    .Esqueceu ul a:hover{
+        box-shadow:0 0 10px aqua ;
+    }
+    
+    header h1{
+    
+        margin:50px;
+    }
+    
+    .Esqueceu{
+    
+        font-weight: 500;
+        font-size: smaller;
+    
+    }
+    
+    
+    
+    
+    
+     
+    
+    
+    
